@@ -49,10 +49,16 @@
             this.label5 = new System.Windows.Forms.Label();
             this.label6 = new System.Windows.Forms.Label();
             this.label7 = new System.Windows.Forms.Label();
-            this.myctBox = new System.Windows.Forms.TextBox();
-            this.mminBox = new System.Windows.Forms.TextBox();
-            this.cachBox = new System.Windows.Forms.TextBox();
-            this.chminBox = new System.Windows.Forms.TextBox();
+            this.areaBox = new System.Windows.Forms.TextBox();
+            this.perimeterBox = new System.Windows.Forms.TextBox();
+            this.compactnessBox = new System.Windows.Forms.TextBox();
+            this.lengthBox = new System.Windows.Forms.TextBox();
+            this.kernelGrooveBox = new System.Windows.Forms.TextBox();
+            this.coefficentBox = new System.Windows.Forms.TextBox();
+            this.widthBox = new System.Windows.Forms.TextBox();
+            this.label8 = new System.Windows.Forms.Label();
+            this.label9 = new System.Windows.Forms.Label();
+            this.label10 = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.kohonenMap)).BeginInit();
             this.inputVectorsGroupBox.SuspendLayout();
             this.SuspendLayout();
@@ -84,7 +90,7 @@
             this.loadNRunBtn.Location = new System.Drawing.Point(107, 426);
             this.loadNRunBtn.Name = "loadNRunBtn";
             this.loadNRunBtn.Size = new System.Drawing.Size(178, 23);
-            this.loadNRunBtn.TabIndex = 8;
+            this.loadNRunBtn.TabIndex = 7;
             this.loadNRunBtn.Text = "Load data and Form Map";
             this.loadNRunBtn.UseVisualStyleBackColor = true;
             this.loadNRunBtn.Click += new System.EventHandler(this.loadNRunBtn_Click);
@@ -103,7 +109,7 @@
             this.discreteRBtn.Location = new System.Drawing.Point(12, 397);
             this.discreteRBtn.Name = "discreteRBtn";
             this.discreteRBtn.Size = new System.Drawing.Size(108, 17);
-            this.discreteRBtn.TabIndex = 4;
+            this.discreteRBtn.TabIndex = 3;
             this.discreteRBtn.TabStop = true;
             this.discreteRBtn.Text = "Discrete Function";
             this.discreteRBtn.UseVisualStyleBackColor = true;
@@ -115,7 +121,7 @@
             this.gaussRBtn.Location = new System.Drawing.Point(121, 397);
             this.gaussRBtn.Name = "gaussRBtn";
             this.gaussRBtn.Size = new System.Drawing.Size(99, 17);
-            this.gaussRBtn.TabIndex = 5;
+            this.gaussRBtn.TabIndex = 4;
             this.gaussRBtn.TabStop = true;
             this.gaussRBtn.Text = "Gauss Function";
             this.gaussRBtn.UseVisualStyleBackColor = true;
@@ -127,7 +133,7 @@
             this.mexicanRBtn.Location = new System.Drawing.Point(223, 397);
             this.mexicanRBtn.Name = "mexicanRBtn";
             this.mexicanRBtn.Size = new System.Drawing.Size(85, 17);
-            this.mexicanRBtn.TabIndex = 6;
+            this.mexicanRBtn.TabIndex = 5;
             this.mexicanRBtn.TabStop = true;
             this.mexicanRBtn.Text = "Mexican Hat";
             this.mexicanRBtn.UseVisualStyleBackColor = true;
@@ -139,7 +145,7 @@
             this.frenchRBtn.Location = new System.Drawing.Point(311, 397);
             this.frenchRBtn.Name = "frenchRBtn";
             this.frenchRBtn.Size = new System.Drawing.Size(78, 17);
-            this.frenchRBtn.TabIndex = 7;
+            this.frenchRBtn.TabIndex = 6;
             this.frenchRBtn.TabStop = true;
             this.frenchRBtn.Text = "French Hat";
             this.frenchRBtn.UseVisualStyleBackColor = true;
@@ -194,7 +200,7 @@
             this.inputVectorsGroupBox.Location = new System.Drawing.Point(617, 13);
             this.inputVectorsGroupBox.Name = "inputVectorsGroupBox";
             this.inputVectorsGroupBox.Size = new System.Drawing.Size(205, 436);
-            this.inputVectorsGroupBox.TabIndex = 14;
+            this.inputVectorsGroupBox.TabIndex = 999;
             this.inputVectorsGroupBox.TabStop = false;
             this.inputVectorsGroupBox.Text = "Input Vectors";
             // 
@@ -205,14 +211,14 @@
             this.inputVectorsListBox.Location = new System.Drawing.Point(3, 16);
             this.inputVectorsListBox.Name = "inputVectorsListBox";
             this.inputVectorsListBox.Size = new System.Drawing.Size(199, 417);
-            this.inputVectorsListBox.TabIndex = 0;
+            this.inputVectorsListBox.TabIndex = 9999;
             // 
             // testBtn
             // 
             this.testBtn.Location = new System.Drawing.Point(503, 425);
             this.testBtn.Name = "testBtn";
             this.testBtn.Size = new System.Drawing.Size(75, 23);
-            this.testBtn.TabIndex = 13;
+            this.testBtn.TabIndex = 15;
             this.testBtn.Text = "Test";
             this.testBtn.UseVisualStyleBackColor = true;
             this.testBtn.Click += new System.EventHandler(this.testBtn_Click);
@@ -220,76 +226,130 @@
             // label4
             // 
             this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(431, 325);
+            this.label4.Location = new System.Drawing.Point(470, 250);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(40, 13);
+            this.label4.Size = new System.Drawing.Size(41, 13);
             this.label4.TabIndex = 16;
-            this.label4.Text = "MYCT:";
+            this.label4.Text = "area A:";
             // 
             // label5
             // 
             this.label5.AutoSize = true;
-            this.label5.Location = new System.Drawing.Point(431, 350);
+            this.label5.Location = new System.Drawing.Point(448, 275);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(39, 13);
+            this.label5.Size = new System.Drawing.Size(63, 13);
             this.label5.TabIndex = 17;
-            this.label5.Text = "MMIN:";
+            this.label5.Text = "perimeter P:";
             // 
             // label6
             // 
             this.label6.AutoSize = true;
-            this.label6.Location = new System.Drawing.Point(431, 376);
+            this.label6.Location = new System.Drawing.Point(428, 301);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(39, 13);
+            this.label6.Size = new System.Drawing.Size(83, 13);
             this.label6.TabIndex = 18;
-            this.label6.Text = "CACH:";
+            this.label6.Text = "compactness C:";
             // 
             // label7
             // 
             this.label7.AutoSize = true;
-            this.label7.Location = new System.Drawing.Point(431, 402);
+            this.label7.Location = new System.Drawing.Point(471, 327);
             this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(45, 13);
+            this.label7.Size = new System.Drawing.Size(39, 13);
             this.label7.TabIndex = 19;
-            this.label7.Text = "CHMIN:";
+            this.label7.Text = "length:";
             // 
-            // myctBox
+            // areaBox
             // 
-            this.myctBox.Location = new System.Drawing.Point(489, 322);
-            this.myctBox.Name = "myctBox";
-            this.myctBox.Size = new System.Drawing.Size(100, 20);
-            this.myctBox.TabIndex = 9;
+            this.areaBox.Location = new System.Drawing.Point(511, 247);
+            this.areaBox.Name = "areaBox";
+            this.areaBox.Size = new System.Drawing.Size(100, 20);
+            this.areaBox.TabIndex = 8;
             // 
-            // mminBox
+            // perimeterBox
             // 
-            this.mminBox.Location = new System.Drawing.Point(489, 347);
-            this.mminBox.Name = "mminBox";
-            this.mminBox.Size = new System.Drawing.Size(100, 20);
-            this.mminBox.TabIndex = 10;
+            this.perimeterBox.Location = new System.Drawing.Point(511, 272);
+            this.perimeterBox.Name = "perimeterBox";
+            this.perimeterBox.Size = new System.Drawing.Size(100, 20);
+            this.perimeterBox.TabIndex = 9;
             // 
-            // cachBox
+            // compactnessBox
             // 
-            this.cachBox.Location = new System.Drawing.Point(489, 373);
-            this.cachBox.Name = "cachBox";
-            this.cachBox.Size = new System.Drawing.Size(100, 20);
-            this.cachBox.TabIndex = 11;
+            this.compactnessBox.Location = new System.Drawing.Point(511, 298);
+            this.compactnessBox.Name = "compactnessBox";
+            this.compactnessBox.Size = new System.Drawing.Size(100, 20);
+            this.compactnessBox.TabIndex = 10;
             // 
-            // chminBox
+            // lengthBox
             // 
-            this.chminBox.Location = new System.Drawing.Point(489, 399);
-            this.chminBox.Name = "chminBox";
-            this.chminBox.Size = new System.Drawing.Size(100, 20);
-            this.chminBox.TabIndex = 12;
+            this.lengthBox.Location = new System.Drawing.Point(511, 324);
+            this.lengthBox.Name = "lengthBox";
+            this.lengthBox.Size = new System.Drawing.Size(100, 20);
+            this.lengthBox.TabIndex = 11;
+            // 
+            // kernelGrooveBox
+            // 
+            this.kernelGrooveBox.Location = new System.Drawing.Point(511, 402);
+            this.kernelGrooveBox.Name = "kernelGrooveBox";
+            this.kernelGrooveBox.Size = new System.Drawing.Size(100, 20);
+            this.kernelGrooveBox.TabIndex = 14;
+            // 
+            // coefficentBox
+            // 
+            this.coefficentBox.Location = new System.Drawing.Point(511, 376);
+            this.coefficentBox.Name = "coefficentBox";
+            this.coefficentBox.Size = new System.Drawing.Size(100, 20);
+            this.coefficentBox.TabIndex = 13;
+            // 
+            // widthBox
+            // 
+            this.widthBox.Location = new System.Drawing.Point(511, 350);
+            this.widthBox.Name = "widthBox";
+            this.widthBox.Size = new System.Drawing.Size(100, 20);
+            this.widthBox.TabIndex = 12;
+            // 
+            // label8
+            // 
+            this.label8.AutoSize = true;
+            this.label8.Location = new System.Drawing.Point(437, 405);
+            this.label8.Name = "label8";
+            this.label8.Size = new System.Drawing.Size(75, 13);
+            this.label8.TabIndex = 25;
+            this.label8.Text = "kernel groove:";
+            // 
+            // label9
+            // 
+            this.label9.AutoSize = true;
+            this.label9.Location = new System.Drawing.Point(401, 379);
+            this.label9.Name = "label9";
+            this.label9.Size = new System.Drawing.Size(111, 13);
+            this.label9.TabIndex = 24;
+            this.label9.Text = "asymmetry coefficient:";
+            // 
+            // label10
+            // 
+            this.label10.AutoSize = true;
+            this.label10.Location = new System.Drawing.Point(475, 353);
+            this.label10.Name = "label10";
+            this.label10.Size = new System.Drawing.Size(35, 13);
+            this.label10.TabIndex = 23;
+            this.label10.Text = "width:";
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(403, 458);
-            this.Controls.Add(this.chminBox);
-            this.Controls.Add(this.cachBox);
-            this.Controls.Add(this.mminBox);
-            this.Controls.Add(this.myctBox);
+            this.Controls.Add(this.kernelGrooveBox);
+            this.Controls.Add(this.coefficentBox);
+            this.Controls.Add(this.widthBox);
+            this.Controls.Add(this.label8);
+            this.Controls.Add(this.label9);
+            this.Controls.Add(this.label10);
+            this.Controls.Add(this.lengthBox);
+            this.Controls.Add(this.compactnessBox);
+            this.Controls.Add(this.perimeterBox);
+            this.Controls.Add(this.areaBox);
             this.Controls.Add(this.label7);
             this.Controls.Add(this.label6);
             this.Controls.Add(this.label5);
@@ -341,10 +401,16 @@
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.Label label6;
         private System.Windows.Forms.Label label7;
-        private System.Windows.Forms.TextBox myctBox;
-        private System.Windows.Forms.TextBox mminBox;
-        private System.Windows.Forms.TextBox cachBox;
-        private System.Windows.Forms.TextBox chminBox;
+        private System.Windows.Forms.TextBox areaBox;
+        private System.Windows.Forms.TextBox perimeterBox;
+        private System.Windows.Forms.TextBox compactnessBox;
+        private System.Windows.Forms.TextBox lengthBox;
+        private System.Windows.Forms.TextBox kernelGrooveBox;
+        private System.Windows.Forms.TextBox coefficentBox;
+        private System.Windows.Forms.TextBox widthBox;
+        private System.Windows.Forms.Label label8;
+        private System.Windows.Forms.Label label9;
+        private System.Windows.Forms.Label label10;
     }
 }
 

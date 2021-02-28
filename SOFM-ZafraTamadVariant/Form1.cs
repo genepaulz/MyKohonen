@@ -167,9 +167,10 @@ namespace SOFM_ZafraTamadVariant
                 nn.StartLearning();
                 labelsPanel.Visible = true;
                 colorMatrix = nn.ColorSOFM();
-                int size = 640;
+                /*MessageBox.Show(colorMatrix.Length.ToString());*/
+                int size = ((int)Math.Sqrt(colorMatrix.Length))*10;
                 int rectsize = 10;
-                int grid = 64;
+                int grid = (int)Math.Sqrt(colorMatrix.Length);
                 Bitmap res = new Bitmap(size, size);
             
                 using (Graphics g = Graphics.FromImage(res))
@@ -196,11 +197,14 @@ namespace SOFM_ZafraTamadVariant
         {
             List<Double> test = new List<double>();
            
-                test.Add(Convert.ToDouble(myctBox.Text));
-                test.Add(Convert.ToDouble(mminBox.Text));
-                test.Add(Convert.ToDouble(cachBox.Text));
-                test.Add(Convert.ToDouble(chminBox.Text));
-            
+                test.Add(Convert.ToDouble(areaBox.Text));
+                test.Add(Convert.ToDouble(perimeterBox.Text));
+                test.Add(Convert.ToDouble(compactnessBox.Text));
+                test.Add(Convert.ToDouble(lengthBox.Text));
+                test.Add(Convert.ToDouble(widthBox.Text));
+                test.Add(Convert.ToDouble(coefficentBox.Text));
+                test.Add(Convert.ToDouble(kernelGrooveBox.Text));
+
             
             Neuron winner = nn.FindWinner(test);
             MessageBox.Show("This test input is located at " + winner.Coordinate + "");

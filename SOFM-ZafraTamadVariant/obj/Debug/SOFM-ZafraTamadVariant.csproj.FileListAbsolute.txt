@@ -10,3 +10,15 @@ C:\Users\Zafra\Desktop\MyKohonen\SOFM-ZafraTamadVariant\obj\Debug\SOFM-ZafraTama
 C:\Users\Zafra\Desktop\MyKohonen\SOFM-ZafraTamadVariant\obj\Debug\SOFM-ZafraTamadVariant.csproj.CopyComplete
 C:\Users\Zafra\Desktop\MyKohonen\SOFM-ZafraTamadVariant\obj\Debug\SOFM-ZafraTamadVariant.exe
 C:\Users\Zafra\Desktop\MyKohonen\SOFM-ZafraTamadVariant\obj\Debug\SOFM-ZafraTamadVariant.pdb
+C:\Users\Gene Paul Zafra\Desktop\MyKohonen\SOFM-ZafraTamadVariant\bin\Debug\SOFM-ZafraTamadVariant.exe.config
+C:\Users\Gene Paul Zafra\Desktop\MyKohonen\SOFM-ZafraTamadVariant\bin\Debug\SOFM-ZafraTamadVariant.exe
+C:\Users\Gene Paul Zafra\Desktop\MyKohonen\SOFM-ZafraTamadVariant\bin\Debug\SOFM-ZafraTamadVariant.pdb
+C:\Users\Gene Paul Zafra\Desktop\MyKohonen\SOFM-ZafraTamadVariant\bin\Debug\SOFM.dll
+C:\Users\Gene Paul Zafra\Desktop\MyKohonen\SOFM-ZafraTamadVariant\obj\Debug\SOFM-ZafraTamadVariant.csprojAssemblyReference.cache
+C:\Users\Gene Paul Zafra\Desktop\MyKohonen\SOFM-ZafraTamadVariant\obj\Debug\SOFM_ZafraTamadVariant.Form1.resources
+C:\Users\Gene Paul Zafra\Desktop\MyKohonen\SOFM-ZafraTamadVariant\obj\Debug\SOFM_ZafraTamadVariant.Properties.Resources.resources
+C:\Users\Gene Paul Zafra\Desktop\MyKohonen\SOFM-ZafraTamadVariant\obj\Debug\SOFM-ZafraTamadVariant.csproj.GenerateResource.cache
+C:\Users\Gene Paul Zafra\Desktop\MyKohonen\SOFM-ZafraTamadVariant\obj\Debug\SOFM-ZafraTamadVariant.csproj.CoreCompileInputs.cache
+C:\Users\Gene Paul Zafra\Desktop\MyKohonen\SOFM-ZafraTamadVariant\obj\Debug\SOFM-ZafraTamadVariant.csproj.CopyComplete
+C:\Users\Gene Paul Zafra\Desktop\MyKohonen\SOFM-ZafraTamadVariant\obj\Debug\SOFM-ZafraTamadVariant.exe
+C:\Users\Gene Paul Zafra\Desktop\MyKohonen\SOFM-ZafraTamadVariant\obj\Debug\SOFM-ZafraTamadVariant.pdb
